@@ -59,6 +59,18 @@ document.addEventListener("DOMContentLoaded", function() {
     let removedog = dogsArray.indexOf("Polly")
     if (removedog > -1) dogsArray.splice(removedog, 1)
     console.log("Opgave 8", dogsArray);
+
+    // Ekstraopgave
+
+    let sumOf1 = numbersArray.reduce(function(result, number){
+        return result + number
+    })
+
+    console.log("Ekstraopgave", sumOf1);
+
+    let sumOf2 = numbersArray.reduce( (result, number) => result + number, 500)
+    console.log("Ekstraopgave", sumOf2);
+    
     
     
 
