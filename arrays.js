@@ -53,6 +53,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let blueberry = fruitsArray.indexOf("Blåbær")
     console.log("Opgave 7", blueberry);
+
+    // Opgave 8
+    
+    let removedog = dogsArray.indexOf("Polly")
+    if (removedog > -1) dogsArray.splice(removedog, 1)
+    console.log("Opgave 8", dogsArray);
+    
     
 
 
