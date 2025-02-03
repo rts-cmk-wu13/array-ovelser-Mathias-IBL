@@ -32,6 +32,15 @@ document.addEventListener("DOMContentLoaded", function() {
     let find = catsArray.find(cat => cat == "Bagheera")
     console.log("Opgave 4", find);
     
+    let find2 = catsArray.find(cat => cat == "Salem")
+    console.log("Opgave 4", find2);
+
+    // Opgave 5
+
+    let multip = numbersArray.map((number) => number * 3)
+    console.log("Opgave 5", multip);
+    
+    
 
 
 
