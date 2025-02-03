@@ -46,6 +46,13 @@ document.addEventListener("DOMContentLoaded", function() {
     let doggies = dogsArray.join(" - ")
     console.log("Opgave 5", doggies);
     
+    // Opgave 7
+
+    let mango = fruitsArray.indexOf("Mango")
+    console.log("Opgave 7", mango);
+
+    let blueberry = fruitsArray.indexOf("Blåbær")
+    console.log("Opgave 7", blueberry);
     
 
 
