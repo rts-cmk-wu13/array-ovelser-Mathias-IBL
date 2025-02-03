@@ -11,14 +11,31 @@ document.addEventListener("DOMContentLoaded", function() {
     let newNumbers = numbersArray.filter(function(number){
         return number > 20;
     })
-
     console.log("Opgave 1", newNumbers);
 
     // Opgave 2
 
     catsArray.push("Sniffles")
-
     console.log("Opgave 2", catsArray);
+
+    // Opgave 3
+
+    let checkDog1 = dogsArray.includes("Trixie")
+    console.log("Opgave 3", checkDog1);
+
+    let checkDog2 = dogsArray.some((dog) => dog == "Baxter")
+    console.log("Opgave 3", checkDog2);
+    
+
+    // Opgave 4
+
+    let find = catsArray.find(cat => cat == "Bagheera")
+    console.log("Opgave 4", find);
+    
+
+
+
+    
     
     
 
