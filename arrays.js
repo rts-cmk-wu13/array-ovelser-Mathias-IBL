@@ -39,6 +39,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let multip = numbersArray.map((number) => number * 3)
     console.log("Opgave 5", multip);
+
+    
+    // Opgave 6
+    
+    let doggies = dogsArray.join(" - ")
+    console.log("Opgave 5", doggies);
     
     
 
