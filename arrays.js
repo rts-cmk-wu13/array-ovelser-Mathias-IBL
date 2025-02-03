@@ -3,12 +3,23 @@ document.addEventListener("DOMContentLoaded", function() {
     let dogsArray = ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
     let fruitsArray = ["Banana", "Orange", "Pineapple", "Mango", "Plum", "Apricot"]
     let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
-    let newNumbers = [21, 26, 32, 45, 48, 55]
+    
     // --- Løs opgaverne herunder --- 
 
-    // Opgave1
+    // Opgave 1
+
+    let newNumbers = numbersArray.filter(function(number){
+        return number > 20;
+    })
 
     console.log("Opgave 1", newNumbers);
+
+    // Opgave 2
+
+    catsArray.push("Sniffles")
+
+    console.log("Opgave 2", catsArray);
+    
     
 
 }) // ends DOMContentLoaded
